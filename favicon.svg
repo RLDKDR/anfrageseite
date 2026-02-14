@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <radialGradient id="g1" cx="25%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.06)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="rgba(200,255,0,0.03)"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.05)"/>
+      <stop offset="40%" stop-color="transparent"/>
+      <stop offset="60%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="6" fill="#060B0F"/>
+  <rect width="32" height="32" rx="6" fill="url(#g1)"/>
+  <rect width="32" height="32" rx="6" fill="url(#g2)"/>
+  <rect width="32" height="32" rx="6" fill="url(#glass)" stroke="rgba(255,255,255,0.08)" stroke-width="0.5"/>
+  <text x="8" y="23.5" font-family="Inter,system-ui,sans-serif" font-weight="800" font-size="21" fill="#ede8e0">a</text>
+  <circle cx="22.5" cy="21" r="2.8" fill="#c8ff00"/>
+</svg>
